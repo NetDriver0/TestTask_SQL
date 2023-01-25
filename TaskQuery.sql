@@ -1,4 +1,4 @@
-Select Products.Product_name as 'Продукт' , Categories.Category_name as 'Категория'
+Select Products.Product_name as 'РџСЂРѕРґСѓРєС‚С‹' , Categories.Category_name as 'РљР°С‚РµРіРѕСЂРёРё'
 From Products
 Left Join Categories 
 On Products.Category_id=Categories.Category_id
